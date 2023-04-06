@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-	int n;
+	int x;
 
-	for (n = 48; n < 58; n++)
+	for (x = 0; n < 10; x++)
 	{
-		putchar(n);
-		if (n != 57)
+		putchar(x + '0');
+		if (x < 9)
 		{
 			putchar(',');
 			putchar(' ');
